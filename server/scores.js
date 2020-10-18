@@ -3,14 +3,16 @@ const router = express.Router()
 
 const http = require("https");
 
-const exampleData = require('../example.json');
+const exampleMlb = require('../example.json');
+const exampleNfl = require('../examplenfl.json');
+const examples = {"mlb" : exampleMlb, "nfl" : exampleNfl}
 
 require('dotenv').config();
 const apiKey = process.env.API_KEY
 
 function getDate(){
 	let today = new Date();
-	let dd = String(today.getDate() - 1).padStart(1, '0') + 1;
+	let dd = String(today.getDate()).padStart(2, '0');
 	let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 	let yyyy = today.getFullYear();
 	let todaysdate = yyyy.toString()+'-'+mm.toString()+'-'+dd.toString();
@@ -34,35 +36,41 @@ const options = {
 	}
 };
 
+function setSportAndDatePath(sport) {
+	let currdate = getDate()
+	return `/games?league=${sport}&date=${currdate}`
+}
+
 // middleware that is specific to this router
 //get current date on request
 router.use(function timeLog (req, res, next) {
 	let currdate = getDate()
 	options.path = `/games?league=MLB&date=${currdate}`
-	console.log(options.path)
 	next()
 })
 // define the home page route
 router.get('/', function (req, res) {
   res.send('Sports home page')
 })
-// define the mlb route
-router.get('/mlb', function (req1, res1) {
-	res1.set('Content-Type', 'application/json; charset=utf-8')
-  	const req = http.request(options, function (res) {
-		var chunks = [];
 
-		res.on("data", function (chunk) {
+router.get('/:league', function(req1, res1) {
+	let league = req1.params["league"]
+	options["path"] = setSportAndDatePath(league)
+	console.log(options.path)
+	const req = http.request(options, function(res) {
+		let chunks = [];
+
+		res.on("data", function(chunk) {
 			chunks.push(chunk);
-		});
+		})
 
-		res.on("end", function () {
-			var body = Buffer.concat(chunks);
+		res.on("end", function() {
+			let body = Buffer.concat(chunks);
 			// res1.status(200).json(JSON.parse(body.toString()))
-			res1.status(200).json(exampleData)
-		});
-	});
-	req.end();
+			res1.status(200).json(examples[league])
+		})
+	})
+	req.end()
 })
 
 module.exports = router
