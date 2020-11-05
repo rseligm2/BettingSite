@@ -12,7 +12,7 @@ const register = (username, password) => {
   };
   
   const login = (username, password) => {
-    return fetch(url + '/api/authenticate', {
+    const fetchPromise = fetch(url + '/api/authenticate', {
             crossDomain:true,
             method: 'POST',
             body: JSON.stringify({username: username, password: password}),
@@ -20,13 +20,8 @@ const register = (username, password) => {
               'Content-Type': 'application/json'
             }
           })
-        .then(res => res.json())
-        .then((res) => {
-        if (res.data.accessToken) {
-          localStorage.setItem("user", JSON.stringify(res.data));
-        }
-        return res.data;
-      });
+        console.log(fetchPromise)
+        return fetchPromise
   };
   
   const logout = () => {

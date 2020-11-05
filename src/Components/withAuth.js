@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import authHeader from "./authHeader";
 
+
 export default function withAuth(ComponentToProtect) {
   return class extends Component {
     constructor() {
@@ -25,7 +26,7 @@ export default function withAuth(ComponentToProtect) {
         })
         .catch(err => {
           console.error(err);
-          this.setState({ loading: false, redirect: true });
+          // this.setState({ loading: false, redirect: true });
         });
     }
     render() {

@@ -10,8 +10,8 @@ import { Redirect } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux'
 import { selectUser,
          checkLoggedIn,
-         login,
-         logout
+         loginService,
+         reset
 } from './loginSlice';
 
 const useStyles = makeStyles((theme) => ({
@@ -40,78 +40,82 @@ const Login = (props) => {
     const [username, setUsername] = React.useState("")
     const [password, setPassword] = React.useState("")
 
-    const count = useSelector(selectUser)
+    const user = useSelector(selectUser)
     const dispatch = useDispatch()
-
-    const history = useHistory();
 
     const classes = useStyles();
 
+    const loginStatus = useSelector(state => state.login.status)
+
+    const error = useSelector(state => state.login.error)
+
+    const loggedIn = useSelector(checkLoggedIn)
+
     const handleSubmit = (e) => {
+        console.log(loginStatus)
         e.preventDefault()
-        fetch('http://localhost:3001/api/authenticate', {
-            crossDomain:true,
-            method: 'POST',
-            body: JSON.stringify({username: username, password: password}),
-            headers: {
-              'Content-Type': 'application/json'
-            }
-          })
-          .then(res => {
-            if (res.status === 200) {
-                localStorage.setItem("user", JSON.stringify(res.data))
-                console.log(res.data)
-                history.push("/home");
-                // window.location.reload();
-            //   return <Redirect to="/home" />
-            } else {
-              const error = new Error(res.error);
-              throw error;
-            }
-          })
-          .catch(err => {
-            console.error(err);
-            alert('Error logging in please try again');
-          });
+        if(loginStatus === 'idle'){
+            console.log("dispatching login service")
+            dispatch(loginService({username, password}))
+            // history.push("/home");
+        }
 
     }
+    if(loginStatus === 'succeeded'){
+        // console.log(user)
+        localStorage.setItem("user", JSON.stringify(user))
+        return(
+            <Redirect to="/home" />
+        )
+    }
 
-    return(
-        <Container component="main" maxWidth="xs">
-            <CssBaseline />
-            <Paper className={classes.root} >
-                <h3>
-                    Login
-                </h3>
-                <form noValidate autoComplete="off" className={classes.form} onSubmit={handleSubmit} >
-                    <TextField 
-                        id="username" 
-                        label="Username" 
-                        className={classes.textField}
-                        margin="normal"
-                        required
-                        fullWidth
-                        onChange={(e) => setUsername(e.target.value)} />
-                    <TextField 
-                        id="password" 
-                        label="Password" 
-                        type="password"
-                        margin="normal"
-                        fullWidth
-                        required
-                        className={classes.textField}
-                        onChange={(e) => setPassword(e.target.value)} />
-                    <Button
-                        fullWidth
-                        variant="contained"
-                        type='submit'
-                        className={classes.submit}
-                    >
-                        Submit
-                    </Button>
-                </form>
-            </Paper>
-        </Container>
-    )
+    if(loginStatus === 'failed'){
+        if(error.message === "Unauthorized"){
+            alert('Incorrect username or password')
+        }else{
+            alert('Internal Server Error')
+        }
+        dispatch(reset())
+    }
+
+    if(loggedIn === false){
+        return(
+            <Container component="main" maxWidth="xs">
+                <CssBaseline />
+                <Paper className={classes.root} >
+                    <h3>
+                        Login
+                    </h3>
+                    <form noValidate autoComplete="off" className={classes.form} onSubmit={handleSubmit} >
+                        <TextField 
+                            id="username" 
+                            label="Username" 
+                            className={classes.textField}
+                            margin="normal"
+                            required
+                            fullWidth
+                            onChange={(e) => setUsername(e.target.value)} />
+                        <TextField 
+                            id="password" 
+                            label="Password" 
+                            type="password"
+                            margin="normal"
+                            fullWidth
+                            required
+                            className={classes.textField}
+                            onChange={(e) => setPassword(e.target.value)} />
+                        <Button
+                            fullWidth
+                            variant="contained"
+                            type='submit'
+                            className={classes.submit}
+                        >
+                            Submit
+                        </Button>
+                    </form>
+                </Paper>
+            </Container>
+        )
+    }
 }
 export default Login
