@@ -5,13 +5,16 @@ import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import {useHistory} from "react-router-dom";
 import { Redirect } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux'
 import { selectUser,
          checkLoggedIn,
          loginService,
-         reset
+         checkLoginStatus,
+         reset,
+         checkRegisterStatus,
+         registerService,
+         checkError
 } from './loginSlice';
 
 const useStyles = makeStyles((theme) => ({
@@ -27,11 +30,14 @@ const useStyles = makeStyles((theme) => ({
         // width: '100%',
 },
     submit: {
-        margin: theme.spacing(3, 1, 2),
+        margin: theme.spacing(2, 3, 2),
+        flex: '1 1 100px',
     },
     form: {
         width: '80%', // Fix IE 11 issue.
         marginTop: theme.spacing(1),
+        display: 'flex',
+        flexWrap: 'wrap',
       },
   }));
 
@@ -45,22 +51,32 @@ const Login = (props) => {
 
     const classes = useStyles();
 
-    const loginStatus = useSelector(state => state.login.status)
+    const loginStatus = useSelector(checkLoginStatus)
+    const registerStatus = useSelector(checkRegisterStatus)
 
-    const error = useSelector(state => state.login.error)
+    const error = useSelector(checkError)
 
     const loggedIn = useSelector(checkLoggedIn)
 
     const handleSubmit = (e) => {
-        console.log(loginStatus)
+        // console.log(loginStatus)
         e.preventDefault()
         if(loginStatus === 'idle'){
-            console.log("dispatching login service")
+            // console.log("dispatching login service")
             dispatch(loginService({username, password}))
             // history.push("/home");
         }
-
     }
+
+    const handleRegister = (e) => {
+        // console.log(registerStatus)
+        e.preventDefault()
+        if(registerStatus === 'idle'){
+            // console.log("dispatching register service")
+            dispatch(registerService({username, password}))
+        }
+    }
+
     if(loginStatus === 'succeeded'){
         // console.log(user)
         localStorage.setItem("user", JSON.stringify(user))
@@ -75,6 +91,16 @@ const Login = (props) => {
         }else{
             alert('Internal Server Error')
         }
+        dispatch(reset())
+    }
+
+    if(registerStatus === 'failed'){
+        alert(error.message)
+        dispatch(reset())
+    }
+
+    if(registerStatus === 'succeeded'){
+        alert('Successfully registered!')
         dispatch(reset())
     }
 
@@ -105,12 +131,20 @@ const Login = (props) => {
                             className={classes.textField}
                             onChange={(e) => setPassword(e.target.value)} />
                         <Button
-                            fullWidth
+                            
                             variant="contained"
                             type='submit'
                             className={classes.submit}
                         >
                             Submit
+                        </Button>
+                        <Button
+                            
+                            variant="contained"
+                            className={classes.submit}
+                            onClick={handleRegister}
+                        >
+                            Register
                         </Button>
                     </form>
                 </Paper>

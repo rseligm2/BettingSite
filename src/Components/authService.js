@@ -1,7 +1,7 @@
 const url = 'http://localhost:3001'
 
 const register = (username, password) => {
-    return fetch(url + '/api/register', {
+    const fetchPromise = fetch(url + '/api/register', {
         crossDomain:true,
         method: 'POST',
         body: JSON.stringify({username: username, password: password}),
@@ -9,6 +9,8 @@ const register = (username, password) => {
           'Content-Type': 'application/json'
         }
     });
+    console.log(fetchPromise)
+    return fetchPromise
   };
   
   const login = (username, password) => {

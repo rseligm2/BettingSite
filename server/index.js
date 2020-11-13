@@ -53,8 +53,14 @@ app.post('/api/register', function(req, res) {
   const user = new User({ username, password });
   user.save(function(err) {
     if (err) {
-      res.status(500)
-        .send("Error registering new user please try again.");
+      console.log(err)
+      if(err.code === 11000){
+        res.status(409)
+          .send("User already exists")
+      }else{
+        res.status(500)
+          .send("Error registering new user please try again.");
+      }
     } else {
       res.status(200).send("Welcome to the club!");
     }
