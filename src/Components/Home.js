@@ -1,6 +1,8 @@
 import React from 'react';
 import Topmenu from './Topmenu'
 import ExpertsSection from './ExpertsSection';
+import MyGamesSection from './MyGamesSection';
+import './Home.css';
 
 export default function Home() {
 
@@ -19,11 +21,37 @@ export default function Home() {
                                         ]}
     ]
 
+    const exampleGames = [
+        {"teams": {
+            "away": {"mascot": "Patriots",
+                    "abbreviation": "NE",
+                    "score": 7}
+            ,
+            "home": {"mascot": "Chiefs",
+                    "abbreviation": "KC",
+                    "score": 14}
+        }},
+        {"teams": {
+            "away": {"mascot": "Falcons",
+                    "abbreviation": "ATL",
+                    "score": 0}
+            ,
+            "home": {"mascot": "Packers",
+                    "abbreviation": "GB",
+                    "score": 3}
+        }}
+    ]
+
     return (
         <div className="App">
             <Topmenu menuItems={example}/>
-            <div>
-                <ExpertsSection/>
+            <div className="MidContent">
+                <div className="ExpertsSection">
+                    <ExpertsSection/>
+                </div>
+                <div className="MyGamesSection">
+                    <MyGamesSection games={exampleGames} />
+                </div>
             </div>
         </div>
       );

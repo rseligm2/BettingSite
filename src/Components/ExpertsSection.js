@@ -16,26 +16,30 @@ export default function ExpertsSection(props){
         {name: 'Arty', percent: 55, units: 9.8}
     ]
 
-    return(
-        <TableContainer component={Paper}>
-            <Table>
-                <TableHead>
-                    <TableRow>
-                        <TableCell>Name</TableCell>
-                        <TableCell align="right">W/L%</TableCell>
-                        <TableCell align="right">Units</TableCell>
-                    </TableRow>
-                </TableHead>
-                <TableBody>
-                    {data.map((row, i) =>(
-                        <TableRow key={i} >
-                            <TableCell>{row.name}</TableCell>
-                            <TableCell align="right">{row.percent}</TableCell>
-                            <TableCell align="right">{row.units}</TableCell>
+    return(<div>
+            <header>
+                <h1>Top Experts</h1>
+            </header>
+            <TableContainer component={Paper}>
+                <Table>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>Name</TableCell>
+                            <TableCell align="right">W/L%</TableCell>
+                            <TableCell align="right">Units</TableCell>
                         </TableRow>
-                    ))}
-                </TableBody>
-            </Table>
-        </TableContainer>
+                    </TableHead>
+                    <TableBody>
+                        {data.map((row, i) =>(
+                            <TableRow key={i} >
+                                <TableCell>{row.name}</TableCell>
+                                <TableCell align="right">{row.percent}</TableCell>
+                                <TableCell align="right">{row.units}</TableCell>
+                            </TableRow>
+                        ))}
+                    </TableBody>
+                </Table>
+            </TableContainer>
+        </div>
     )
 }

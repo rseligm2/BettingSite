@@ -1,0 +1,19 @@
+.MidContent{
+    display: grid;
+    grid-template-columns: 1fr minmax(150px, 20%);
+    padding-top: 5%;
+}
+
+.ExpertsSection{
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid black;
+    /* margin-top: 5%; */
+}
+
+.MyGamesSection{
+    /* margin-top: 5%; */
+    border: 2px solid black;
+    margin-right: 5%;
+    margin-left: 5%;
+}

@@ -3,6 +3,8 @@ import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import DropdownButton from './DropdownButton';
+import {selectUser} from './loginSlice';
+import { useSelector} from 'react-redux'
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -27,6 +29,12 @@ export default function Topmenu(props){
         {label: 'Experts', dropItems: [{text: 'My Experts', link: '/myexperts'}, {text: 'Find Experts', link: '/findexperts'}]}
     ]
 
+    const profileDrop = [{text: 'Settings', link: '/profile/settings'},
+                         {text: 'Logout', link: '/logout'}]
+
+    // const user = useSelector(selectUser)
+    const user = JSON.parse(localStorage.getItem("user"));
+
     const exampleMenuItems = []
 
 
@@ -36,6 +44,7 @@ export default function Topmenu(props){
             {menuItems.map((item, i) => (
                 <DropdownButton label={item.label} dropItems={item.dropItems} key={i} />
             ))}
+            <DropdownButton label={user.username} dropItems={profileDrop} isProfile={true}/>
         </Paper>
     )
 }

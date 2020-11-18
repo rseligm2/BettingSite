@@ -12,34 +12,31 @@ export default function DropdownButton(props){
         setOpen(!open)
     }
 
-
     const label = props.label //text for item label
     const dropItems = props.dropItems //array with text and links for dropdown menu
 
-    const exampleLabel = 'My Games'
-    const exampleDropItems = [
-        {text: 'Current', link: '/current'},
-        {text: 'Past', link: '/past'}
-    ]
+    const setStyle = props.setStyle
+    const isProfile = props.isProfile ? props.isProfile : false
 
     return(
-        <List>
-            <ListItem button onClick={handleClick}>
-                <ListItemText primary={label}/>
-            </ListItem>
-            <Collapse in={open} timeout="auto" unmountOnExit>
-                <List component="div" disablePadding>
-                    {dropItems.map((item, i) => (
-                        <Link to={item.link} key={i} style={{textDecoration: 'none'}} >
-                            <ListItem button key={i}>
-                                <ListItemText primary={item.text} />
-                            </ListItem>
-                        </Link>
-                    ))}
-                </List>
-            </Collapse>
-
-        </List>
+        <div style={isProfile ? {marginLeft: 'auto'} : {}}>
+            <List onMouseEnter={handleClick} onMouseLeave={handleClick} >
+                <ListItem button>
+                    <ListItemText primary={label}/>
+                </ListItem>
+                <Collapse in={open} timeout="auto" unmountOnExit>
+                    <List component="div" disablePadding>
+                        {dropItems.map((item, i) => (
+                            <Link to={item.link} key={i} style={{textDecoration: 'none'}} >
+                                <ListItem button key={i}>
+                                    <ListItemText primary={item.text} />
+                                </ListItem>
+                            </Link>
+                        ))}
+                    </List>
+                </Collapse>
+            </List>
+        </div>
     )
 
 }
