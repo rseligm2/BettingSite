@@ -2,15 +2,27 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Before you can start the front end, run:
+
+### `yarn install`
+
+Installs all of the packages used
+
 In the project directory, you can run:
 
 ### `yarn start`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000/home](http://localhost:3000/home) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+In the server folder, run:
+
+### `node index.js`
+
+Runs the backend server
 
 ### `yarn test`
 
