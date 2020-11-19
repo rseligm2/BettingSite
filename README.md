@@ -8,8 +8,14 @@ Before you can start the front end, run:
 
 Installs all of the packages used
 
-In the project directory, you can run:
 
+In the server folder, run:
+### `node index.js`
+
+Runs the backend server
+
+
+In the project directory, you can run:
 ### `yarn start`
 
 Runs the app in the development mode.<br />
@@ -18,11 +24,7 @@ Open [http://localhost:3000/home](http://localhost:3000/home) to view it in the 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-In the server folder, run:
 
-### `node index.js`
-
-Runs the backend server
 
 ### `yarn test`
 
