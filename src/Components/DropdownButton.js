@@ -19,17 +19,17 @@ export default function DropdownButton(props){
     const isProfile = props.isProfile ? props.isProfile : false
 
     return(
-        <div style={isProfile ? {marginLeft: 'auto'} : {}}>
-            <List onMouseEnter={handleClick} onMouseLeave={handleClick} >
+        <div style={isProfile ? {marginLeft: 'auto'} : {position: 'relative'}}>
+            <List onMouseEnter={handleClick} onMouseLeave={handleClick} style={{position: 'relative'}}>
                 <ListItem button>
                     <ListItemText primary={label}/>
                 </ListItem>
-                <Collapse in={open} timeout="auto" unmountOnExit>
+                <Collapse in={open} timeout="auto" unmountOnExit style={{position: 'absolute', display: 'block', backgroundColor: 'white', width: '100%'}}>
                     <List component="div" disablePadding>
                         {dropItems.map((item, i) => (
                             <Link to={item.link} key={i} style={{textDecoration: 'none'}} >
                                 <ListItem button key={i}>
-                                    <ListItemText primary={item.text} />
+                                    <ListItemText primary={item.text} style={{color: 'black'}}/>
                                 </ListItem>
                             </Link>
                         ))}

@@ -5,28 +5,8 @@ import ScoreCard from './ScoreCard';
 
 export default function MyGamesSection(props){
 
-    const games = props.games //array of my games
+    const games = props.games //array of my games, example in Home.js
 
-    const exampleData = [
-        {"teams": {
-            "away": {"mascot": "Patriots",
-                    "abbreviation": "NE",
-                    "score": 7}
-            ,
-            "home": {"mascot": "Chiefs",
-                    "abbreviation": "KC",
-                    "score": 14}
-        }},
-        {"teams": {
-            "away": {"mascot": "Falcons",
-                    "abbreviation": "ATL",
-                    "score": 0}
-            ,
-            "home": {"mascot": "Packers",
-                    "abbreviation": "GB",
-                    "score": 3}
-        }}
-    ]
 
     return(
         <div>

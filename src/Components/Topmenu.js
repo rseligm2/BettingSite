@@ -1,16 +1,15 @@
 import React from 'react';
 import Paper from '@material-ui/core/Paper';
-import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import DropdownButton from './DropdownButton';
-import {selectUser} from './loginSlice';
-import { useSelector} from 'react-redux'
 
 const useStyles = makeStyles(theme => ({
     root: {
-        display: 'flex',
+        display: 'inline-flex',
         width: '100%',
         margin: 'auto',
+        maxHeight: '100',
+        height: '10%'
     },
     button: {
         margin: theme.spacing(1, 0),
