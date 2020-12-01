@@ -15,7 +15,7 @@ export default function MyGamesSection(props){
             </header>
             <List>
                 {games.map((item, i) =>(
-                    <ListItem>
+                    <ListItem key = {i}>
                         <ScoreCard game={item} />
                     </ListItem>
                 ))}
