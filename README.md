@@ -10,9 +10,9 @@ Installs all of the packages used
 
 
 In the server folder, run:
-### `node index.js`
+### `python3 start.py`
 
-Runs the backend server
+Runs mongo instance and node app for backend
 
 
 In the project directory, you can run:
