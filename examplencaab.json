@@ -1,0 +1,3540 @@
+{
+    "status": 200,
+    "time": "2020-12-02T02:15:50.296Z",
+    "games": 57,
+    "skip": 0,
+    "results": [
+    {
+    "schedule": {
+    "date": "2020-12-01T16:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Vermont vs St. Bonaventure",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Vermont",
+    "location": "Vermont",
+    "mascot": "Catamounts",
+    "abbreviation": "UVM",
+    "conference": "America East"
+    },
+    "home": {
+    "team": "St. Bonaventure",
+    "location": "St. Bonaventure",
+    "mascot": "Bonnies",
+    "abbreviation": "SBON",
+    "conference": "Atlantic 10"
+    }
+    },
+    "lastUpdated": "2020-11-22T07:28:28.139Z",
+    "gameId": 250557,
+    "venue": {
+    "name": "Mohegan Sun Arena",
+    "city": "Uncasville",
+    "state": "CT",
+    "neutralSite": true
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T18:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Alcorn State @ DePaul",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Alcorn State",
+    "location": "Alcorn State",
+    "mascot": "Braves",
+    "abbreviation": "ALCN",
+    "conference": "SWAC"
+    },
+    "home": {
+    "team": "DePaul",
+    "location": "DePaul",
+    "mascot": "Blue Demons",
+    "abbreviation": "DEP",
+    "conference": "Big East"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:46.178Z",
+    "gameId": 253692,
+    "venue": {
+    "name": "Wintrust Arena",
+    "city": "Chicago",
+    "state": "IL",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T18:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Texas vs Indiana",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Texas",
+    "location": "Texas",
+    "mascot": "Longhorns",
+    "abbreviation": "TEX",
+    "conference": "Big 12"
+    },
+    "home": {
+    "team": "Indiana",
+    "location": "Indiana",
+    "mascot": "Hoosiers",
+    "abbreviation": "IND",
+    "conference": "Big Ten"
+    }
+    },
+    "lastUpdated": "2020-12-01T20:42:38.206Z",
+    "gameId": 255426,
+    "venue": {
+    "name": "Harrah's Cherokee Center",
+    "city": "Asheville",
+    "state": "NC",
+    "neutralSite": true
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 1.5,
+    "home": -1.5,
+    "awayOdds": -105,
+    "homeOdds": -115
+    },
+    "current": {
+    "away": 2,
+    "home": -2,
+    "awayOdds": -110,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 110,
+    "homeOdds": -130
+    },
+    "current": {
+    "awayOdds": 115,
+    "homeOdds": -133
+    }
+    },
+    "total": {
+    "open": {
+    "total": 133,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 140,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-12-01T15:03:32.678Z",
+    "lastUpdated": "2020-12-01T18:35:05.651Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 66,
+    "home": 44,
+    "awayPeriods": [
+    31,
+    35
+    ],
+    "homePeriods": [
+    19,
+    25
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T19:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "BYU vs USC",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "BYU",
+    "location": "BYU",
+    "mascot": "Cougars",
+    "abbreviation": "BYU",
+    "conference": "West Coast"
+    },
+    "home": {
+    "team": "USC",
+    "location": "USC",
+    "mascot": "Trojans",
+    "abbreviation": "USC",
+    "conference": "Pac 12"
+    }
+    },
+    "lastUpdated": "2020-12-01T21:19:33.366Z",
+    "gameId": 250562,
+    "venue": {
+    "name": "Mohegan Sun Arena",
+    "city": "Uncasville",
+    "state": "CT",
+    "neutralSite": true
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 1,
+    "home": -1,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": 0,
+    "home": 0,
+    "awayOdds": -110,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": -103,
+    "homeOdds": -117
+    },
+    "current": {
+    "awayOdds": -108,
+    "homeOdds": -112
+    }
+    },
+    "total": {
+    "open": {
+    "total": 145.5,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 146.5,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-11-30T19:47:55.407Z",
+    "lastUpdated": "2020-11-30T22:23:26.622Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 53,
+    "home": 79,
+    "awayPeriods": [
+    20,
+    33
+    ],
+    "homePeriods": [
+    31,
+    48
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T20:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Oakland @ Purdue",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Oakland",
+    "location": "Oakland",
+    "mascot": "Golden Grizzlies",
+    "abbreviation": "OAK",
+    "conference": "Horizon League"
+    },
+    "home": {
+    "team": "Purdue",
+    "location": "Purdue",
+    "mascot": "Boilermakers",
+    "abbreviation": "PUR",
+    "conference": "Big Ten"
+    }
+    },
+    "lastUpdated": "2020-12-01T21:54:29.415Z",
+    "gameId": 253717,
+    "venue": {
+    "name": "Mackey Arena",
+    "city": "West Lafayette",
+    "state": "IN",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 24,
+    "home": -24,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": 21.5,
+    "home": -21.5,
+    "awayOdds": -110,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 2625,
+    "homeOdds": -5500
+    },
+    "current": {
+    "awayOdds": 2250,
+    "homeOdds": -4500
+    }
+    },
+    "total": {
+    "open": {
+    "total": 142,
+    "overOdds": -115,
+    "underOdds": -105
+    },
+    "current": {
+    "total": 142,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-11-30T19:47:55.700Z",
+    "lastUpdated": "2020-12-01T19:55:47.970Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 50,
+    "home": 93,
+    "awayPeriods": [
+    27,
+    23
+    ],
+    "homePeriods": [
+    49,
+    44
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T20:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Prairie View vs UNC Greensboro",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Prairie View",
+    "location": "Prairie View",
+    "mascot": "Panthers",
+    "abbreviation": "PV",
+    "conference": "SWAC"
+    },
+    "home": {
+    "team": "UNC Greensboro",
+    "location": "UNC Greensboro",
+    "mascot": "Spartans",
+    "abbreviation": "UNCG",
+    "conference": "Southern"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:38.344Z",
+    "gameId": 253804,
+    "venue": {
+    "name": "KFC Yum! Center",
+    "city": "Louisville",
+    "state": "KY",
+    "neutralSite": true
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T21:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "St. Francis (PA) @ Virginia",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "St. Francis (PA)",
+    "location": "St. Francis (PA)",
+    "mascot": "Red Flash",
+    "abbreviation": "SFPA",
+    "conference": "Northeast"
+    },
+    "home": {
+    "team": "Virginia",
+    "location": "Virginia",
+    "mascot": "Cavaliers",
+    "abbreviation": "UVA",
+    "conference": "ACC"
+    }
+    },
+    "lastUpdated": "2020-12-01T22:48:25.981Z",
+    "gameId": 250561,
+    "venue": {
+    "name": "John Paul Jones Arena",
+    "city": "Charlottesville",
+    "state": "VA",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 51,
+    "home": 76,
+    "awayPeriods": [
+    13,
+    38
+    ],
+    "homePeriods": [
+    45,
+    31
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T21:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Bryant @ New Hampshire",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Bryant",
+    "location": "Bryant",
+    "mascot": "Bulldogs",
+    "abbreviation": "BRY",
+    "conference": "Northeast"
+    },
+    "home": {
+    "team": "New Hampshire",
+    "location": "New Hampshire",
+    "mascot": "Wildcats",
+    "abbreviation": "UNH",
+    "conference": "America East"
+    }
+    },
+    "lastUpdated": "2020-12-01T23:14:12.916Z",
+    "gameId": 255423,
+    "venue": {
+    "name": "Lundholm Gym",
+    "city": "Durham",
+    "state": "NH",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 93,
+    "home": 85,
+    "awayPeriods": [
+    46,
+    47
+    ],
+    "homePeriods": [
+    44,
+    41
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T21:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "UC Riverside vs Washington",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "UC Riverside",
+    "location": "UC Riverside",
+    "mascot": "Highlanders",
+    "abbreviation": "UCR",
+    "conference": "Big West"
+    },
+    "home": {
+    "team": "Washington",
+    "location": "Washington",
+    "mascot": "Huskies",
+    "abbreviation": "WASH",
+    "conference": "Pac 12"
+    }
+    },
+    "lastUpdated": "2020-12-01T22:57:33.387Z",
+    "gameId": 255427,
+    "venue": {
+    "name": "T-Mobile Arena",
+    "city": "Paradise",
+    "state": "NV",
+    "neutralSite": true
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 8.5,
+    "home": -8.5,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": 10,
+    "home": -10,
+    "awayOdds": -110,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 321,
+    "homeOdds": -400
+    },
+    "current": {
+    "awayOdds": 443,
+    "homeOdds": -560
+    }
+    },
+    "total": {
+    "open": {
+    "total": 128,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 130,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-12-01T15:03:33.332Z",
+    "lastUpdated": "2020-12-01T21:07:55.966Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 57,
+    "home": 42,
+    "awayPeriods": [
+    29,
+    28
+    ],
+    "homePeriods": [
+    22,
+    20
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T21:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "North Carolina vs Stanford",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "North Carolina",
+    "location": "North Carolina",
+    "mascot": "Tar Heels",
+    "abbreviation": "UNC",
+    "conference": "ACC"
+    },
+    "home": {
+    "team": "Stanford",
+    "location": "Stanford",
+    "mascot": "Cardinal",
+    "abbreviation": "STAN",
+    "conference": "Pac 12"
+    }
+    },
+    "lastUpdated": "2020-12-01T23:18:41.219Z",
+    "gameId": 255444,
+    "venue": {
+    "name": "Harrah's Cherokee Center",
+    "city": "Asheville",
+    "state": "NC",
+    "neutralSite": true
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": -3,
+    "home": 3,
+    "awayOdds": -115,
+    "homeOdds": -105
+    },
+    "current": {
+    "away": -4,
+    "home": 4,
+    "awayOdds": -115,
+    "homeOdds": -105
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": -185,
+    "homeOdds": 160
+    },
+    "current": {
+    "awayOdds": -185,
+    "homeOdds": 163
+    }
+    },
+    "total": {
+    "open": {
+    "total": 143,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 143,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-12-01T15:03:33.676Z",
+    "lastUpdated": "2020-12-01T21:07:56.314Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 67,
+    "home": 63,
+    "awayPeriods": [
+    29,
+    38
+    ],
+    "homePeriods": [
+    33,
+    30
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T22:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Vanderbilt vs Connecticut",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Vanderbilt",
+    "location": "Vanderbilt",
+    "mascot": "Commodores",
+    "abbreviation": "VAN",
+    "conference": "SEC"
+    },
+    "home": {
+    "team": "Connecticut",
+    "location": "Connecticut",
+    "mascot": "Huskies",
+    "abbreviation": "CONN",
+    "conference": "AAC"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:39.475Z",
+    "gameId": 250563,
+    "venue": {
+    "name": "Mohegan Sun Arena",
+    "city": "Uncasville",
+    "state": "CT",
+    "neutralSite": true
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T22:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Green Bay @ Wisconsin",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Green Bay",
+    "location": "Green Bay",
+    "mascot": "Phoenix",
+    "abbreviation": "GB",
+    "conference": "Horizon League"
+    },
+    "home": {
+    "team": "Wisconsin",
+    "location": "Wisconsin",
+    "mascot": "Badgers",
+    "abbreviation": "WIS",
+    "conference": "Big Ten"
+    }
+    },
+    "lastUpdated": "2020-12-01T23:52:46.183Z",
+    "gameId": 253832,
+    "venue": {
+    "name": "Kohl Center",
+    "city": "Madison",
+    "state": "WI",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 26,
+    "home": -26,
+    "awayOdds": -105,
+    "homeOdds": -115
+    },
+    "current": {
+    "away": 25,
+    "home": -25,
+    "awayOdds": -110,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 4000,
+    "homeOdds": -10000
+    },
+    "current": {
+    "awayOdds": 3500,
+    "homeOdds": -8500
+    }
+    },
+    "total": {
+    "open": {
+    "total": 147,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 147,
+    "overOdds": -105,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-11-30T19:47:56.253Z",
+    "lastUpdated": "2020-12-01T21:55:26.041Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 42,
+    "home": 82,
+    "awayPeriods": [
+    12,
+    30
+    ],
+    "homePeriods": [
+    34,
+    48
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T22:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Nebraska-Omaha @ Creighton",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Nebraska-Omaha",
+    "location": "Nebraska-Omaha",
+    "mascot": "Mavericks",
+    "abbreviation": "OMA",
+    "conference": "Summit League"
+    },
+    "home": {
+    "team": "Creighton",
+    "location": "Creighton",
+    "mascot": "Bluejays",
+    "abbreviation": "CREI",
+    "conference": "Big East"
+    }
+    },
+    "lastUpdated": "2020-12-01T23:45:20.590Z",
+    "gameId": 254686,
+    "venue": {
+    "name": "CHI Health Center Omaha",
+    "city": "Omaha",
+    "state": "NE",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 21,
+    "home": -21,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": 21,
+    "home": -21,
+    "awayOdds": -105,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 2000,
+    "homeOdds": -4000
+    },
+    "current": {
+    "awayOdds": 1875,
+    "homeOdds": -3750
+    }
+    },
+    "total": {
+    "open": {
+    "total": 148,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 147,
+    "overOdds": -105,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-11-30T19:47:55.988Z",
+    "lastUpdated": "2020-12-01T21:55:25.750Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 67,
+    "home": 94,
+    "awayPeriods": [
+    26,
+    41
+    ],
+    "homePeriods": [
+    50,
+    44
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T22:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Longwood @ VMI",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Longwood",
+    "location": "Longwood",
+    "mascot": "Lancers",
+    "abbreviation": "LONG",
+    "conference": "Big South"
+    },
+    "home": {
+    "team": "VMI",
+    "location": "VMI",
+    "mascot": "Keydets",
+    "abbreviation": "VMI",
+    "conference": "Southern"
+    }
+    },
+    "lastUpdated": "2020-12-01T23:54:26.734Z",
+    "gameId": 255403,
+    "venue": {
+    "name": "Cameron Hall",
+    "city": "Lexington",
+    "state": "VA",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 71,
+    "home": 84,
+    "awayPeriods": [
+    36,
+    35
+    ],
+    "homePeriods": [
+    37,
+    47
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T22:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Hartford vs Villanova",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Hartford",
+    "location": "Hartford",
+    "mascot": "Hawks",
+    "abbreviation": "HART",
+    "conference": "America East"
+    },
+    "home": {
+    "team": "Villanova",
+    "location": "Villanova",
+    "mascot": "Wildcats",
+    "abbreviation": "VILL",
+    "conference": "Big East"
+    }
+    },
+    "lastUpdated": "2020-12-01T23:44:09.014Z",
+    "gameId": 255406,
+    "venue": {
+    "name": "Mohegan Sun Arena",
+    "city": "Uncasville",
+    "state": "CT",
+    "neutralSite": true
+    },
+    "scoreboard": {
+    "score": {
+    "away": 53,
+    "home": 87,
+    "awayPeriods": [
+    24,
+    29
+    ],
+    "homePeriods": [
+    43,
+    44
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T22:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "North Carolina Wesleyan @ East Carolina",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "North Carolina Wesleyan",
+    "location": "North Carolina Wesleyan",
+    "mascot": "Battling Bishops",
+    "abbreviation": "NCW"
+    },
+    "home": {
+    "team": "East Carolina",
+    "location": "East Carolina",
+    "mascot": "Pirates",
+    "abbreviation": "ECU",
+    "conference": "AAC"
+    }
+    },
+    "lastUpdated": "2020-12-01T23:58:21.052Z",
+    "gameId": 255418,
+    "venue": {
+    "name": "Minges Coliseum",
+    "city": "Greenville",
+    "state": "NC",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 62,
+    "home": 91,
+    "awayPeriods": [
+    30,
+    32
+    ],
+    "homePeriods": [
+    44,
+    47
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T23:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Western Kentucky @ Louisville",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Western Kentucky",
+    "location": "Western Kentucky",
+    "mascot": "Hilltoppers",
+    "abbreviation": "WKU",
+    "conference": "Conference USA"
+    },
+    "home": {
+    "team": "Louisville",
+    "location": "Louisville",
+    "mascot": "Cardinals",
+    "abbreviation": "LOU",
+    "conference": "ACC"
+    }
+    },
+    "lastUpdated": "2020-12-02T01:07:34.979Z",
+    "gameId": 250554,
+    "venue": {
+    "name": "KFC Yum! Center",
+    "city": "Louisville",
+    "state": "KY",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 6.5,
+    "home": -6.5,
+    "awayOdds": -115,
+    "homeOdds": -105
+    },
+    "current": {
+    "away": 4.5,
+    "home": -4.5,
+    "awayOdds": -105,
+    "homeOdds": -105
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 200,
+    "homeOdds": -240
+    },
+    "current": {
+    "awayOdds": 170,
+    "homeOdds": -193
+    }
+    },
+    "total": {
+    "open": {
+    "total": 141.5,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 142.5,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-11-30T19:47:56.515Z",
+    "lastUpdated": "2020-12-01T23:05:58.049Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 54,
+    "home": 75,
+    "awayPeriods": [
+    29,
+    25
+    ],
+    "homePeriods": [
+    34,
+    41
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T23:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Sacred Heart @ Stony Brook",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Sacred Heart",
+    "location": "Sacred Heart",
+    "mascot": "Pioneers",
+    "abbreviation": "SHU",
+    "conference": "Northeast"
+    },
+    "home": {
+    "team": "Stony Brook",
+    "location": "Stony Brook",
+    "mascot": "Seawolves",
+    "abbreviation": "SB",
+    "conference": "America East"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:46.348Z",
+    "gameId": 250558,
+    "venue": {
+    "name": "Island Federal Credit Union Arena",
+    "city": "Stony Brook",
+    "state": "NY",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T23:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Lincoln (PA) @ Morgan State",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Lincoln (PA)",
+    "location": "Lincoln (PA)",
+    "mascot": "Lions",
+    "abbreviation": "LINC"
+    },
+    "home": {
+    "team": "Morgan State",
+    "location": "Morgan State",
+    "mascot": "Bears",
+    "abbreviation": "MORG",
+    "conference": "MEAC"
+    }
+    },
+    "lastUpdated": "2020-12-02T01:09:15.035Z",
+    "gameId": 250564,
+    "venue": {
+    "name": "Hill Field House",
+    "city": "Baltimore",
+    "state": "MD",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 94,
+    "home": 102,
+    "awayPeriods": [
+    43,
+    51
+    ],
+    "homePeriods": [
+    43,
+    59
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T23:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Navy @ Georgetown",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Navy",
+    "location": "Navy",
+    "mascot": "Midshipmen",
+    "abbreviation": "NAVY",
+    "conference": "Patriot League"
+    },
+    "home": {
+    "team": "Georgetown",
+    "location": "Georgetown",
+    "mascot": "Hoyas",
+    "abbreviation": "GTWN",
+    "conference": "Big East"
+    }
+    },
+    "lastUpdated": "2020-12-02T00:57:34.074Z",
+    "gameId": 253364,
+    "venue": {
+    "name": "McDonough Arena",
+    "city": "Washington",
+    "state": "DC",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 78,
+    "home": 71,
+    "awayPeriods": [
+    29,
+    49
+    ],
+    "homePeriods": [
+    26,
+    45
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T23:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "St. Andrews @ Appalachian State",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "St. Andrews",
+    "location": "St. Andrews",
+    "mascot": "Knights",
+    "abbreviation": "SA"
+    },
+    "home": {
+    "team": "Appalachian State",
+    "location": "Appalachian State",
+    "mascot": "Mountaineers",
+    "abbreviation": "APP",
+    "conference": "Sun Belt"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:40.549Z",
+    "gameId": 255382,
+    "venue": {
+    "name": "Holmes Convocation Center",
+    "city": "Boone",
+    "state": "NC",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-01T23:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Stony Brook vs St. Peter's",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Stony Brook",
+    "location": "Stony Brook",
+    "mascot": "Seawolves",
+    "abbreviation": "SB",
+    "conference": "America East"
+    },
+    "home": {
+    "team": "St. Peter's",
+    "location": "St. Peter's",
+    "mascot": "Peacocks",
+    "abbreviation": "SPU",
+    "conference": "Metro Atlantic"
+    }
+    },
+    "lastUpdated": "2020-12-02T01:02:46.589Z",
+    "gameId": 255404,
+    "venue": {
+    "name": "John J. Moore Athletics and Fitness Center",
+    "city": "Jersey City",
+    "state": "NJ",
+    "neutralSite": true
+    },
+    "scoreboard": {
+    "score": {
+    "away": 68,
+    "home": 82,
+    "awayPeriods": [
+    35,
+    33
+    ],
+    "homePeriods": [
+    40,
+    42
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Oklahoma State @ Marquette",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Oklahoma State",
+    "location": "Oklahoma State",
+    "mascot": "Cowboys",
+    "abbreviation": "OKST",
+    "conference": "Big 12"
+    },
+    "home": {
+    "team": "Marquette",
+    "location": "Marquette",
+    "mascot": "Golden Eagles",
+    "abbreviation": "MARQ",
+    "conference": "Big East"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:14:19.162Z",
+    "gameId": 250550,
+    "venue": {
+    "name": "Fiserv Forum",
+    "city": "Milwaukee",
+    "state": "WI",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 4.5,
+    "home": -4.5,
+    "awayOdds": -105,
+    "homeOdds": -115
+    },
+    "current": {
+    "away": 2.5,
+    "home": -2.5,
+    "awayOdds": -110,
+    "homeOdds": -105
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 170,
+    "homeOdds": -200
+    },
+    "current": {
+    "awayOdds": 131,
+    "homeOdds": -149
+    }
+    },
+    "total": {
+    "open": {
+    "total": 146,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 147.5,
+    "overOdds": -105,
+    "underOdds": -105
+    }
+    },
+    "openDate": "2020-11-30T19:47:57.081Z",
+    "lastUpdated": "2020-12-02T00:05:05.880Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 70,
+    "home": 62,
+    "awayPeriods": [
+    32,
+    38
+    ],
+    "homePeriods": [
+    35,
+    27
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Cleveland State @ Toledo",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Cleveland State",
+    "location": "Cleveland State",
+    "mascot": "Vikings",
+    "abbreviation": "CLEV",
+    "conference": "Horizon League"
+    },
+    "home": {
+    "team": "Toledo",
+    "location": "Toledo",
+    "mascot": "Rockets",
+    "abbreviation": "TOL",
+    "conference": "MAC",
+    "division": "West"
+    }
+    },
+    "lastUpdated": "2020-12-02T01:59:22.003Z",
+    "gameId": 250553,
+    "venue": {
+    "name": "Savage Arena",
+    "city": "Toledo",
+    "state": "OH",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 9,
+    "home": -9,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": 8,
+    "home": -8,
+    "awayOdds": -105,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 475,
+    "homeOdds": -650
+    },
+    "current": {
+    "awayOdds": 323,
+    "homeOdds": -394
+    }
+    },
+    "total": {
+    "open": {
+    "total": 138.5,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 140.5,
+    "overOdds": -105,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-11-30T19:47:56.776Z",
+    "lastUpdated": "2020-12-02T00:05:05.591Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 61,
+    "home": 70,
+    "awayPeriods": [
+    35,
+    26
+    ],
+    "homePeriods": [
+    23,
+    47
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "North Carolina A&T @ Charleston Southern",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "North Carolina A&T",
+    "location": "North Carolina A&T",
+    "mascot": "Aggies",
+    "abbreviation": "NCAT",
+    "conference": "MEAC"
+    },
+    "home": {
+    "team": "Charleston Southern",
+    "location": "Charleston Southern",
+    "mascot": "Buccaneers",
+    "abbreviation": "CHSO",
+    "conference": "Big South"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:08:12.340Z",
+    "gameId": 253242,
+    "venue": {
+    "name": "CSU Field House",
+    "city": "Charleston",
+    "state": "SC",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 70,
+    "home": 63,
+    "awayPeriods": [
+    31,
+    39
+    ],
+    "homePeriods": [
+    28,
+    35
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Emmanuel (GA) @ South Alabama",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Emmanuel (GA)",
+    "location": "Emmanuel (GA)",
+    "mascot": "Lions",
+    "abbreviation": "EMMG"
+    },
+    "home": {
+    "team": "South Alabama",
+    "location": "South Alabama",
+    "mascot": "Jaguars",
+    "abbreviation": "SALA",
+    "conference": "Sun Belt"
+    }
+    },
+    "lastUpdated": "2020-12-02T01:57:25.715Z",
+    "gameId": 253365,
+    "venue": {
+    "name": "Mitchell Center",
+    "city": "Mobile",
+    "state": "AL",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 47,
+    "home": 86,
+    "awayPeriods": [
+    21,
+    26
+    ],
+    "homePeriods": [
+    42,
+    44
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Valparaiso @ Illinois-Chicago",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Valparaiso",
+    "location": "Valparaiso",
+    "mascot": "Crusaders",
+    "abbreviation": "VAL",
+    "conference": "Missouri Valley"
+    },
+    "home": {
+    "team": "Illinois-Chicago",
+    "location": "Illinois-Chicago",
+    "mascot": "Flames",
+    "abbreviation": "UIC",
+    "conference": "Horizon League"
+    }
+    },
+    "lastUpdated": "2020-12-02T01:54:25.543Z",
+    "gameId": 253703,
+    "venue": {
+    "name": "UIC Pavilion",
+    "city": "Chicago",
+    "state": "IL",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": -1,
+    "home": 1,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": -1.5,
+    "home": 1.5,
+    "awayOdds": -110,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": -125,
+    "homeOdds": 105
+    },
+    "current": {
+    "awayOdds": -122,
+    "homeOdds": 106
+    }
+    },
+    "total": {
+    "open": {
+    "total": 140.5,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 137,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-11-30T19:47:57.345Z",
+    "lastUpdated": "2020-12-01T23:54:07.000Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 50,
+    "home": 66,
+    "awayPeriods": [
+    19,
+    31
+    ],
+    "homePeriods": [
+    28,
+    38
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Monmouth @ Maryland",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Monmouth",
+    "location": "Monmouth",
+    "mascot": "Hawks",
+    "abbreviation": "MONM",
+    "conference": "Metro Atlantic"
+    },
+    "home": {
+    "team": "Maryland",
+    "location": "Maryland",
+    "mascot": "Terrapins",
+    "abbreviation": "MD",
+    "conference": "Big Ten"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:41.613Z",
+    "gameId": 253716,
+    "venue": {
+    "name": "Xfinity Center",
+    "city": "College Park",
+    "state": "MD",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Bellarmine @ Dayton",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Bellarmine",
+    "location": "Bellarmine",
+    "mascot": "Knights",
+    "abbreviation": "BLRM",
+    "conference": "Atlantic Sun"
+    },
+    "home": {
+    "team": "Dayton",
+    "location": "Dayton",
+    "mascot": "Flyers",
+    "abbreviation": "DAY",
+    "conference": "Atlantic 10"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:46.687Z",
+    "gameId": 254925,
+    "venue": {
+    "name": "University of Dayton Arena",
+    "city": "Dayton",
+    "state": "OH",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Central Michigan @ Florida International",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Central Michigan",
+    "location": "Central Michigan",
+    "mascot": "Chippewas",
+    "abbreviation": "CMU",
+    "conference": "MAC",
+    "division": "West"
+    },
+    "home": {
+    "team": "Florida International",
+    "location": "Florida International",
+    "mascot": "Panthers",
+    "abbreviation": "FIU",
+    "conference": "Conference USA"
+    }
+    },
+    "lastUpdated": "2020-12-02T01:57:26.108Z",
+    "gameId": 255058,
+    "venue": {
+    "name": "Ocean Bank Convocation Center",
+    "city": "Miami",
+    "state": "FL",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 4,
+    "home": -4,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": 3.5,
+    "home": -3.5,
+    "awayOdds": -110,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 150,
+    "homeOdds": -170
+    },
+    "current": {
+    "awayOdds": 150,
+    "homeOdds": -167
+    }
+    },
+    "total": {
+    "open": {
+    "total": 161,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 161.5,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-11-30T19:47:57.622Z",
+    "lastUpdated": "2020-12-01T23:54:07.387Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 76,
+    "home": 96,
+    "awayPeriods": [
+    30,
+    46
+    ],
+    "homePeriods": [
+    41,
+    55
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Lancaster Bible College @ VMI",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Lancaster Bible College",
+    "location": "Lancaster Bible College",
+    "mascot": "Chargers",
+    "abbreviation": "LANC"
+    },
+    "home": {
+    "team": "VMI",
+    "location": "VMI",
+    "mascot": "Keydets",
+    "abbreviation": "VMI",
+    "conference": "Southern"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:41.438Z",
+    "gameId": 255130,
+    "venue": {
+    "name": "Cameron Hall",
+    "city": "Lexington",
+    "state": "VA",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Alcorn State @ Dayton",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Alcorn State",
+    "location": "Alcorn State",
+    "mascot": "Braves",
+    "abbreviation": "ALCN",
+    "conference": "SWAC"
+    },
+    "home": {
+    "team": "Dayton",
+    "location": "Dayton",
+    "mascot": "Flyers",
+    "abbreviation": "DAY",
+    "conference": "Atlantic 10"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:46.515Z",
+    "gameId": 255137,
+    "venue": {
+    "name": "University of Dayton Arena",
+    "city": "Dayton",
+    "state": "OH",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Towson @ Maryland",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Towson",
+    "location": "Towson",
+    "mascot": "Tigers",
+    "abbreviation": "TOWS",
+    "conference": "CAA"
+    },
+    "home": {
+    "team": "Maryland",
+    "location": "Maryland",
+    "mascot": "Terrapins",
+    "abbreviation": "MD",
+    "conference": "Big Ten"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:41.802Z",
+    "gameId": 255360,
+    "venue": {
+    "name": "Xfinity Center",
+    "city": "College Park",
+    "state": "MD",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 18.5,
+    "home": -18.5,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": 18,
+    "home": -18,
+    "awayOdds": -110,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 1875,
+    "homeOdds": -3750
+    },
+    "current": {
+    "awayOdds": 1500,
+    "homeOdds": -3000
+    }
+    },
+    "total": {
+    "open": {
+    "total": 140.5,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 140,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-11-30T19:47:57.897Z",
+    "lastUpdated": "2020-11-30T22:02:59.017Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Davidson vs Providence",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Davidson",
+    "location": "Davidson",
+    "mascot": "Wildcats",
+    "abbreviation": "DAV",
+    "conference": "Atlantic 10"
+    },
+    "home": {
+    "team": "Providence",
+    "location": "Providence",
+    "mascot": "Friars",
+    "abbreviation": "PROV",
+    "conference": "Big East"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:10:29.223Z",
+    "gameId": 255428,
+    "venue": {
+    "name": "Harrah's Cherokee Center",
+    "city": "Asheville",
+    "state": "NC",
+    "neutralSite": true
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 1.5,
+    "home": -1.5,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": 1,
+    "home": -1,
+    "awayOdds": -110,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 115,
+    "homeOdds": -135
+    },
+    "current": {
+    "awayOdds": 100,
+    "homeOdds": -118
+    }
+    },
+    "total": {
+    "open": {
+    "total": 141,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 139.5,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-12-01T15:03:36.356Z",
+    "lastUpdated": "2020-12-01T23:54:07.761Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 62,
+    "home": 63,
+    "awayPeriods": [
+    31,
+    31
+    ],
+    "homePeriods": [
+    35,
+    28
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Eastern Illinois @ Dayton",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "final",
+    "teams": {
+    "away": {
+    "team": "Eastern Illinois",
+    "location": "Eastern Illinois",
+    "mascot": "Panthers",
+    "abbreviation": "EIU",
+    "conference": "Ohio Valley"
+    },
+    "home": {
+    "team": "Dayton",
+    "location": "Dayton",
+    "mascot": "Flyers",
+    "abbreviation": "DAY",
+    "conference": "Atlantic 10"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:03:23.210Z",
+    "gameId": 255437,
+    "venue": {
+    "name": "University of Dayton Arena",
+    "city": "Dayton",
+    "state": "OH",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 63,
+    "home": 66,
+    "awayPeriods": [
+    33,
+    30
+    ],
+    "homePeriods": [
+    38,
+    28
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "0:00"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "USC vs Connecticut",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "USC",
+    "location": "USC",
+    "mascot": "Trojans",
+    "abbreviation": "USC",
+    "conference": "Pac 12"
+    },
+    "home": {
+    "team": "Connecticut",
+    "location": "Connecticut",
+    "mascot": "Huskies",
+    "abbreviation": "CONN",
+    "conference": "AAC"
+    }
+    },
+    "lastUpdated": "2020-12-01T22:12:15.029Z",
+    "gameId": 255482,
+    "venue": {
+    "name": "Gampel Pavilion",
+    "city": "Storrs",
+    "state": "CT",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Buffalo vs Iona",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Buffalo",
+    "location": "Buffalo",
+    "mascot": "Bulls",
+    "abbreviation": "BUFF",
+    "conference": "MAC",
+    "division": "East"
+    },
+    "home": {
+    "team": "Iona",
+    "location": "Iona",
+    "mascot": "Gaels",
+    "abbreviation": "IONA",
+    "conference": "Metro Atlantic"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:46.868Z",
+    "gameId": 250552,
+    "venue": {
+    "name": "Mohegan Sun Arena",
+    "city": "Uncasville",
+    "state": "CT",
+    "neutralSite": true
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Arlington Baptist @ Sam Houston State",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Arlington Baptist",
+    "location": "Arlington Baptist",
+    "mascot": "Patriots",
+    "abbreviation": "ARLB"
+    },
+    "home": {
+    "team": "Sam Houston State",
+    "location": "Sam Houston State",
+    "mascot": "Bearkats",
+    "abbreviation": "SHSU",
+    "conference": "Southland"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:47.089Z",
+    "gameId": 254688,
+    "venue": {
+    "name": "Bernard Johnson Coliseum",
+    "city": "Huntsville",
+    "state": "TX",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Michigan State @ Duke",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "in progress",
+    "teams": {
+    "away": {
+    "team": "Michigan State",
+    "location": "Michigan State",
+    "mascot": "Spartans",
+    "abbreviation": "MSU",
+    "conference": "Big Ten"
+    },
+    "home": {
+    "team": "Duke",
+    "location": "Duke",
+    "mascot": "Blue Devils",
+    "abbreviation": "DUKE",
+    "conference": "ACC"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:43.745Z",
+    "gameId": 255394,
+    "venue": {
+    "name": "Cameron Indoor Stadium",
+    "city": "Durham",
+    "state": "NC",
+    "neutralSite": true
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 5,
+    "home": -5,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": 4,
+    "home": -4,
+    "awayOdds": -110,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 150,
+    "homeOdds": -170
+    },
+    "current": {
+    "awayOdds": 156,
+    "homeOdds": -174
+    }
+    },
+    "total": {
+    "open": {
+    "total": 152,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 149.5,
+    "overOdds": -100,
+    "underOdds": -120
+    }
+    },
+    "openDate": "2020-11-30T19:47:58.170Z",
+    "lastUpdated": "2020-12-02T00:34:25.945Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 62,
+    "home": 51,
+    "awayPeriods": [
+    37,
+    25
+    ],
+    "homePeriods": [
+    33,
+    18
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "5:58"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T00:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "LeTourneau @ Stephen F. Austin",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "in progress",
+    "teams": {
+    "away": {
+    "team": "LeTourneau",
+    "location": "LeTourneau",
+    "mascot": "Yellow Jackets",
+    "abbreviation": "LTO"
+    },
+    "home": {
+    "team": "Stephen F. Austin",
+    "location": "Stephen F. Austin",
+    "mascot": "Lumberjacks",
+    "abbreviation": "SFA",
+    "conference": "Southland"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:43.551Z",
+    "gameId": 255424,
+    "venue": {
+    "name": "William R. Johnson Coliseum",
+    "city": "Nacogdoches",
+    "state": "TX",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 52,
+    "home": 97,
+    "awayPeriods": [
+    23,
+    29
+    ],
+    "homePeriods": [
+    54,
+    43
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "3:17"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T01:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Judson College @ Bradley",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "in progress",
+    "teams": {
+    "away": {
+    "team": "Judson College",
+    "location": "Judson College",
+    "mascot": "Eagles",
+    "abbreviation": "JUD"
+    },
+    "home": {
+    "team": "Bradley",
+    "location": "Bradley",
+    "mascot": "Braves",
+    "abbreviation": "BRAD",
+    "conference": "Missouri Valley"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:44.101Z",
+    "gameId": 250565,
+    "venue": {
+    "name": "Carver Arena",
+    "city": "Peoria",
+    "state": "IL",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 25,
+    "home": 67,
+    "awayPeriods": [
+    17,
+    8
+    ],
+    "homePeriods": [
+    53,
+    11
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "14:33"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T01:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Central Arkansas @ Missouri State",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Central Arkansas",
+    "location": "Central Arkansas",
+    "mascot": "Bears",
+    "abbreviation": "CARK",
+    "conference": "Southland"
+    },
+    "home": {
+    "team": "Missouri State",
+    "location": "Missouri State",
+    "mascot": "Bears",
+    "abbreviation": "MOST",
+    "conference": "Missouri Valley"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:43.925Z",
+    "gameId": 253704,
+    "venue": {
+    "name": "JQH Arena",
+    "city": "Springfield",
+    "state": "MO",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T01:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Hampton @ George Washington",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "in progress",
+    "teams": {
+    "away": {
+    "team": "Hampton",
+    "location": "Hampton",
+    "mascot": "Pirates",
+    "abbreviation": "HAMP",
+    "conference": "Big South"
+    },
+    "home": {
+    "team": "George Washington",
+    "location": "George Washington",
+    "mascot": "Colonials",
+    "abbreviation": "GW",
+    "conference": "Atlantic 10"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:44.282Z",
+    "gameId": 253806,
+    "venue": {
+    "name": "Charles E. Smith Center",
+    "city": "Washington",
+    "state": "DC",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 39,
+    "home": 38,
+    "awayPeriods": [
+    37,
+    2
+    ],
+    "homePeriods": [
+    33,
+    5
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "16:10"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T01:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Covenant @ Samford",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "in progress",
+    "teams": {
+    "away": {
+    "team": "Covenant",
+    "location": "Covenant",
+    "mascot": "Scots",
+    "abbreviation": "COV"
+    },
+    "home": {
+    "team": "Samford",
+    "location": "Samford",
+    "mascot": "Bulldogs",
+    "abbreviation": "SAM",
+    "conference": "Southern"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:44.462Z",
+    "gameId": 255425,
+    "venue": {
+    "name": "Pete Hanna Center",
+    "city": "Homewood",
+    "state": "AL",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 33,
+    "home": 57,
+    "awayPeriods": [
+    33,
+    0
+    ],
+    "homePeriods": [
+    54,
+    3
+    ]
+    },
+    "currentPeriod": 2,
+    "periodTimeRemaining": "18:30"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T01:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Howard Payne @ Abilene Christian",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "in progress",
+    "teams": {
+    "away": {
+    "team": "Howard Payne",
+    "location": "Howard Payne",
+    "mascot": "Yellow Jackets",
+    "abbreviation": "HOWP"
+    },
+    "home": {
+    "team": "Abilene Christian",
+    "location": "Abilene Christian",
+    "mascot": "Wildcats",
+    "abbreviation": "ACU",
+    "conference": "Southland"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:44.646Z",
+    "gameId": 253366,
+    "venue": {
+    "name": "Moody Coliseum (Abilene, TX)",
+    "city": "Abilene",
+    "state": "TX",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 0,
+    "home": 4,
+    "awayPeriods": [
+    0
+    ],
+    "homePeriods": [
+    4
+    ]
+    },
+    "currentPeriod": 1,
+    "periodTimeRemaining": "18:30"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T01:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Winthrop vs UNC Greensboro",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "in progress",
+    "teams": {
+    "away": {
+    "team": "Winthrop",
+    "location": "Winthrop",
+    "mascot": "Eagles",
+    "abbreviation": "WIN",
+    "conference": "Big South"
+    },
+    "home": {
+    "team": "UNC Greensboro",
+    "location": "UNC Greensboro",
+    "mascot": "Spartans",
+    "abbreviation": "UNCG",
+    "conference": "Southern"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:44.843Z",
+    "gameId": 255478,
+    "venue": {
+    "name": "KFC Yum! Center",
+    "city": "Louisville",
+    "state": "KY",
+    "neutralSite": true
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 3.5,
+    "home": -3.5,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": 5.5,
+    "home": -5.5,
+    "awayOdds": -110,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 162,
+    "homeOdds": -177
+    },
+    "current": {
+    "awayOdds": 202,
+    "homeOdds": -236
+    }
+    },
+    "total": {
+    "open": {
+    "total": 149.5,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 147.5,
+    "overOdds": -105,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-12-01T23:06:00.138Z",
+    "lastUpdated": "2020-12-02T01:25:55.395Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 27,
+    "home": 23,
+    "awayPeriods": [
+    27
+    ],
+    "homePeriods": [
+    23
+    ]
+    },
+    "currentPeriod": 1,
+    "periodTimeRemaining": "4:02"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T02:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Mississippi Valley State @ Grand Canyon",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "in progress",
+    "teams": {
+    "away": {
+    "team": "Mississippi Valley State",
+    "location": "Mississippi Valley State",
+    "mascot": "Delta Devils",
+    "abbreviation": "MVSU",
+    "conference": "SWAC"
+    },
+    "home": {
+    "team": "Grand Canyon",
+    "location": "Grand Canyon",
+    "mascot": "Antelopes",
+    "abbreviation": "GCU",
+    "conference": "Western"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:45.032Z",
+    "gameId": 253756,
+    "venue": {
+    "name": "GCU Arena",
+    "city": "Phoenix",
+    "state": "AZ",
+    "neutralSite": false
+    },
+    "scoreboard": {
+    "score": {
+    "away": 11,
+    "home": 11,
+    "awayPeriods": [
+    11
+    ],
+    "homePeriods": [
+    11
+    ]
+    },
+    "currentPeriod": 1,
+    "periodTimeRemaining": "15:36"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T02:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "South Dakota @ Nebraska",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "in progress",
+    "teams": {
+    "away": {
+    "team": "South Dakota",
+    "location": "South Dakota",
+    "mascot": "Coyotes",
+    "abbreviation": "SDAK",
+    "conference": "Summit League"
+    },
+    "home": {
+    "team": "Nebraska",
+    "location": "Nebraska",
+    "mascot": "Cornhuskers",
+    "abbreviation": "NEB",
+    "conference": "Big Ten"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:45.220Z",
+    "gameId": 253844,
+    "venue": {
+    "name": "Pinnacle Bank Arena",
+    "city": "Lincoln",
+    "state": "NE",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 12,
+    "home": -12,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": 14,
+    "home": -14,
+    "awayOdds": -100,
+    "homeOdds": -115
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 800,
+    "homeOdds": -1250
+    },
+    "current": {
+    "awayOdds": 756,
+    "homeOdds": -1237
+    }
+    },
+    "total": {
+    "open": {
+    "total": 150,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 145.5,
+    "overOdds": -105,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-11-30T19:47:58.444Z",
+    "lastUpdated": "2020-12-02T02:06:32.713Z"
+    }
+    ],
+    "scoreboard": {
+    "score": {
+    "away": 8,
+    "home": 6,
+    "awayPeriods": [
+    8
+    ],
+    "homePeriods": [
+    6
+    ]
+    },
+    "currentPeriod": 1,
+    "periodTimeRemaining": "15:46"
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T02:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Kentucky vs Kansas",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Kentucky",
+    "location": "Kentucky",
+    "mascot": "Wildcats",
+    "abbreviation": "UK",
+    "conference": "SEC"
+    },
+    "home": {
+    "team": "Kansas",
+    "location": "Kansas",
+    "mascot": "Jayhawks",
+    "abbreviation": "KU",
+    "conference": "Big 12"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:45.770Z",
+    "gameId": 250560,
+    "venue": {
+    "name": "Bankers Life Fieldhouse",
+    "city": "Indianapolis",
+    "state": "IN",
+    "neutralSite": true
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 4,
+    "home": -4,
+    "awayOdds": -105,
+    "homeOdds": -115
+    },
+    "current": {
+    "away": 4.5,
+    "home": -4.5,
+    "awayOdds": -100,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 160,
+    "homeOdds": -185
+    },
+    "current": {
+    "awayOdds": 175,
+    "homeOdds": -202
+    }
+    },
+    "total": {
+    "open": {
+    "total": 145.5,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 143.5,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2020-11-30T19:47:58.705Z",
+    "lastUpdated": "2020-12-02T02:14:17.822Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T02:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Massachusetts vs South Florida",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Massachusetts",
+    "location": "Massachusetts",
+    "mascot": "Minutemen",
+    "abbreviation": "MASS",
+    "conference": "Atlantic 10"
+    },
+    "home": {
+    "team": "South Florida",
+    "location": "South Florida",
+    "mascot": "Bulls",
+    "abbreviation": "USF",
+    "conference": "AAC"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:47.264Z",
+    "gameId": 253367,
+    "venue": {
+    "name": "Mohegan Sun Arena",
+    "city": "Uncasville",
+    "state": "CT",
+    "neutralSite": true
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T02:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "UNLV vs Alabama",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "UNLV",
+    "location": "UNLV",
+    "mascot": "Rebels",
+    "abbreviation": "UNLV",
+    "conference": "Mountain West"
+    },
+    "home": {
+    "team": "Alabama",
+    "location": "Alabama",
+    "mascot": "Crimson Tide",
+    "abbreviation": "ALA",
+    "conference": "SEC"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:45.407Z",
+    "gameId": 255445,
+    "venue": {
+    "name": "Harrah's Cherokee Center",
+    "city": "Asheville",
+    "state": "NC",
+    "neutralSite": true
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": 10.5,
+    "home": -10.5,
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "away": 11.5,
+    "home": -11.5,
+    "awayOdds": -110,
+    "homeOdds": -110
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": 400,
+    "homeOdds": -500
+    },
+    "current": {
+    "awayOdds": 500,
+    "homeOdds": -648
+    }
+    },
+    "total": {
+    "open": {
+    "total": 154,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 156,
+    "overOdds": -105,
+    "underOdds": -115
+    }
+    },
+    "openDate": "2020-12-01T15:03:37.754Z",
+    "lastUpdated": "2020-12-02T02:14:18.145Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T02:30:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Benedictine (AZ) @ New Mexico State",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Benedictine (AZ)",
+    "location": "Benedictine (AZ)",
+    "mascot": "Redhawks",
+    "abbreviation": "BNAZ"
+    },
+    "home": {
+    "team": "New Mexico State",
+    "location": "New Mexico State",
+    "mascot": "Aggies",
+    "abbreviation": "NMSU",
+    "conference": "Western"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:45.580Z",
+    "gameId": 255496,
+    "venue": {
+    "name": "Pan American Center",
+    "city": "Las Cruces",
+    "state": "NM",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T03:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Nicholls State @ St. Mary's (CA)",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Nicholls State",
+    "location": "Nicholls State",
+    "mascot": "Colonels",
+    "abbreviation": "NICH",
+    "conference": "Southland"
+    },
+    "home": {
+    "team": "St. Mary's (CA)",
+    "location": "St. Mary's (CA)",
+    "mascot": "Gaels",
+    "abbreviation": "SMCA",
+    "conference": "West Coast"
+    }
+    },
+    "lastUpdated": "2020-12-02T02:15:46.001Z",
+    "gameId": 250556,
+    "venue": {
+    "name": "University Credit Union Pavilion",
+    "city": "Moraga",
+    "state": "CA",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T05:00:00.000Z",
+    "tbaTime": true
+    },
+    "summary": "Fairleigh Dickinson @ NJIT",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Fairleigh Dickinson",
+    "location": "Fairleigh Dickinson",
+    "mascot": "Knights",
+    "abbreviation": "FDU",
+    "conference": "Northeast"
+    },
+    "home": {
+    "team": "NJIT",
+    "location": "NJIT",
+    "mascot": "Highlanders",
+    "abbreviation": "NJIT",
+    "conference": "Atlantic Sun"
+    }
+    },
+    "lastUpdated": "2020-12-02T01:34:22.533Z",
+    "gameId": 253737,
+    "venue": {
+    "name": "Wellness and Events Center",
+    "city": "Newark",
+    "state": "NJ",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T05:00:00.000Z",
+    "tbaTime": true
+    },
+    "summary": "Bethesda @ UC Riverside",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Bethesda",
+    "location": "Bethesda",
+    "mascot": "Flames",
+    "abbreviation": "BETH"
+    },
+    "home": {
+    "team": "UC Riverside",
+    "location": "UC Riverside",
+    "mascot": "Highlanders",
+    "abbreviation": "UCR",
+    "conference": "Big West"
+    }
+    },
+    "lastUpdated": "2020-12-02T01:34:22.757Z",
+    "gameId": 254700,
+    "venue": {
+    "name": "Student Recreation Center Arena",
+    "city": "Riverside",
+    "state": "CA",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T05:00:00.000Z",
+    "tbaTime": true
+    },
+    "summary": "Denver @ Air Force",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "canceled",
+    "teams": {
+    "away": {
+    "team": "Denver",
+    "location": "Denver",
+    "mascot": "Pioneers",
+    "abbreviation": "DEN",
+    "conference": "Summit League"
+    },
+    "home": {
+    "team": "Air Force",
+    "location": "Air Force",
+    "mascot": "Falcons",
+    "abbreviation": "AFA",
+    "conference": "Mountain West"
+    }
+    },
+    "lastUpdated": "2020-12-02T01:34:22.966Z",
+    "gameId": 254702,
+    "venue": {
+    "name": "Clune Arena",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "neutralSite": false
+    }
+    },
+    {
+    "schedule": {
+    "date": "2020-12-02T05:00:00.000Z",
+    "tbaTime": true
+    },
+    "summary": "Cal State-Bakersfield @ Santa Clara",
+    "details": {
+    "league": "NCAAB",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Cal State-Bakersfield",
+    "location": "Cal State-Bakersfield",
+    "mascot": "Roadrunners",
+    "abbreviation": "CSB",
+    "conference": "Western"
+    },
+    "home": {
+    "team": "Santa Clara",
+    "location": "Santa Clara",
+    "mascot": "Broncos",
+    "abbreviation": "SCU",
+    "conference": "West Coast"
+    }
+    },
+    "lastUpdated": "2020-12-02T01:34:23.178Z",
+    "gameId": 255474,
+    "venue": {
+    "name": "Leavey Center",
+    "city": "Santa Clara",
+    "state": "CA",
+    "neutralSite": false
+    }
+    }
+    ]
+    }

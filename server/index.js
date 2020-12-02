@@ -7,7 +7,8 @@ const cookieParser = require('cookie-parser');
 const app = express();
 const port = 3001;
 
-const scores = require('./scores')
+const scores = require('./scores');
+const dbRouter = require('./dbRouter');
 const User = require('./User.js');
 const withAuth = require('./Middleware.js');
 
@@ -119,6 +120,7 @@ app.get('/checkToken', withAuth, function(req, res) {
 })
 
 app.use('/scores', scores)
+app.use('/database', dbRouter)
  
 app.listen(port, () => {
   console.log("Server listening on port " + port);
