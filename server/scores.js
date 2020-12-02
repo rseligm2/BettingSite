@@ -53,6 +53,7 @@ router.get('/', function (req, res) {
   res.send('Sports home page')
 })
 
+//request
 router.get('/:league', function(req1, res1) {
 	let league = req1.params["league"]
 	options["path"] = setSportAndDatePath(league)
@@ -66,11 +67,18 @@ router.get('/:league', function(req1, res1) {
 
 		res.on("end", function() {
 			let body = Buffer.concat(chunks);
-			// res1.status(200).json(JSON.parse(body.toString()))
-			res1.status(200).json(examples[league])
+			res1.status(200).json(JSON.parse(body.toString()))
 		})
 	})
 	req.end()
+})
+
+//static data simulate request
+router.get('/test/:league', function(req1, res1) {
+	let league = req1.params["league"]
+	options["path"] = setSportAndDatePath(league)
+	console.log(options.path)
+	res1.status(200).json(examples[league])
 })
 
 module.exports = router
