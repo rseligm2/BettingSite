@@ -1,10 +1,12 @@
 from pathlib import Path
 import subprocess
+import time
 
 SERVER_PATH = Path(__file__).parent.absolute()
 APP_ROOT_DIR = SERVER_PATH.parent.absolute()
 
 db_proccess_status = subprocess.Popen(["mongod", "--dbpath", f"{str(APP_ROOT_DIR)}/data/mongo"])
+time.sleep(5)
 
 server_process = subprocess.Popen(["node", f"{str(SERVER_PATH)}/index.js"],stdout=subprocess.PIPE,
                            universal_newlines=True)
