@@ -51,3 +51,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+
+Important database information:
+Always shutdown backend before pushing or pulling.
+To access database open mongo with command 'mongo'. Inside mongo, switch to DB by running: 'use react-auth'. View database by running: 'db.users.find().pretty()'
