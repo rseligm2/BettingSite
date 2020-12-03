@@ -5,7 +5,8 @@ const http = require("https");
 
 const exampleMlb = require('../example.json');
 const exampleNfl = require('../examplenfl.json');
-const examples = {"mlb" : exampleMlb, "nfl" : exampleNfl}
+const exampleNCAAB = require('../examplencaab.json');
+const examples = {"mlb" : exampleMlb, "nfl" : exampleNfl, "ncaab" : exampleNCAAB}
 
 require('dotenv').config();
 const apiKey = process.env.API_KEY
