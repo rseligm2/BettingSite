@@ -121,6 +121,7 @@ app.get('/checkToken', withAuth, function(req, res) {
 
 app.use('/scores', scores)
 app.use('/database', dbRouter)
+
  
 app.listen(port, () => {
   console.log("Server listening on port " + port);

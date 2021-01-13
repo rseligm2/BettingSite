@@ -22,19 +22,13 @@ router.use(function timeLog (req, res, next) {
 router.get('/pushGameDocument/:league', function(req1, res1) {
     const league = req1.params["league"]
     const game = new Game(examples[league]["results"][0])
-    console.log("before");
-    game.save(function(err) {
-      console.log("infunction");
-      // Check if document is new or a new password has been set
-      if (err) {
-        // Saving reference to this because of changing scopes
-        console.log(err)
-      } else {
-        console.log("success");
-      }
-    });
-    console.log("after");
-    res1.status(200).json(examples[league]["results"][0])
+    console.log(game)
+    game.save().then(game => {
+      console.log('Game has been added.')
+      res1.status(200).json(game)
+    })
+    .catch(err => handleError(err))
+    // res1.status(200).json(examples[league]["results"][0])
 })
 
 module.exports = router
