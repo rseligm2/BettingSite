@@ -10,6 +10,7 @@ const port = 3001;
 const scores = require('./scores');
 const dbRouter = require('./dbRouter');
 const User = require('./User.js');
+const UserBets = require('./UserBetsSchema.js')
 const withAuth = require('./Middleware.js');
 
 require('dotenv').config();
@@ -52,7 +53,7 @@ app.get("/", (req, res) => {
 app.post('/api/register', function(req, res) {
   const { username, password } = req.body;
   const user = new User({ username, password });
-  user.save(function(err) {
+  user.save(function(err, doc) {
     if (err) {
       console.log(err)
       if(err.code === 11000){
@@ -63,7 +64,11 @@ app.post('/api/register', function(req, res) {
           .send("Error registering new user please try again.");
       }
     } else {
-      res.status(200).send("Welcome to the club!");
+        let userBets = new UserBets({user_id: doc._id, bets: []})
+        userBets.save().then(() => {
+            console.log('UserBets has been added.')
+            res.status(200).send("Welcome to the club!");
+          })
     }
   });
 });
