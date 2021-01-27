@@ -15,7 +15,6 @@ export default function DropdownButton(props){
     const label = props.label //text for item label
     const dropItems = props.dropItems //array with text and links for dropdown menu
 
-    const setStyle = props.setStyle
     const isProfile = props.isProfile ? props.isProfile : false
 
     return(
@@ -24,7 +23,7 @@ export default function DropdownButton(props){
                 <ListItem button>
                     <ListItemText primary={label}/>
                 </ListItem>
-                <Collapse in={open} timeout="auto" unmountOnExit style={{position: 'absolute', display: 'block', backgroundColor: 'white', width: '100%'}}>
+                <Collapse in={open} timeout="auto" unmountOnExit style={{position: 'absolute', display: 'block', backgroundColor: 'white', width: '100%', zIndex: '5'}}>
                     <List component="div" disablePadding>
                         {dropItems.map((item, i) => (
                             <Link to={item.link} key={i} style={{textDecoration: 'none'}} >

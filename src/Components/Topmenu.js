@@ -2,6 +2,8 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 import DropdownButton from './DropdownButton';
+import {Link} from 'react-router-dom';
+
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -20,7 +22,6 @@ const useStyles = makeStyles(theme => ({
 export default function Topmenu(props){
 
     const classes = useStyles();
-    const sports = ['Football', 'Basketball', 'Hockey', 'Baseball', 'Soccer']
     const menuItems = props.menuItems //pass in array of buttons to go in menu
 
     const example = [
@@ -34,12 +35,13 @@ export default function Topmenu(props){
     // const user = useSelector(selectUser)
     const user = JSON.parse(localStorage.getItem("user"));
 
-    const exampleMenuItems = []
-
-
-
     return(
         <Paper variant="outlined" className={classes.root}>
+            <Link to={'/'} style={{textDecoration: 'none'}} >
+                <div style={{postion: 'relative', paddingLeft: '1em', paddingRight: '1em'}}>
+                    <h3 style={{color: 'black'}} >Bettor Market</h3>
+                </div>
+            </Link>
             {menuItems.map((item, i) => (
                 <DropdownButton label={item.label} dropItems={item.dropItems} key={i} />
             ))}

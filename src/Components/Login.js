@@ -81,7 +81,7 @@ const Login = (props) => {
         // console.log(user)
         localStorage.setItem("user", JSON.stringify(user))
         return(
-            <Redirect to="/home" />
+            <Redirect to="/" />
         )
     }
 
