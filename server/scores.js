@@ -6,7 +6,8 @@ const http = require("https");
 const exampleMlb = require('../example.json');
 const exampleNfl = require('../examplenfl.json');
 const exampleNCAAB = require('../examplencaab.json');
-const examples = {"mlb" : exampleMlb, "nfl" : exampleNfl, "ncaab" : exampleNCAAB}
+const exampleNHL = require('../examplenhl.json')
+const examples = {"mlb" : exampleMlb, "nfl" : exampleNfl, "ncaab" : exampleNCAAB, "nhl" : exampleNHL}
 
 require('dotenv').config();
 const apiKey = process.env.API_KEY
@@ -58,7 +59,7 @@ router.get('/', function (req, res) {
 router.get('/:league', function(req1, res1) {
 	let league = req1.params["league"]
 	options["path"] = setSportAndDatePath(league)
-	console.log(options.path)
+	// console.log(options.path)
 	const req = http.request(options, function(res) {
 		let chunks = [];
 

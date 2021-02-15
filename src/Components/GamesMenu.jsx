@@ -33,7 +33,6 @@ export default function GamesMenu(props){
 
     return(
         <Paper variant="outlined" className={classes.root}>
-            {/* <List component="div" disablePadding> */}
             {games.map((item) => (
                 <NavLink to={`${url}/${item.toLowerCase()}`} key={nanoid()} style={{textDecoration: 'none'}} activeClassName={classes.activeUrl}>
                     <ListItem button>
@@ -41,7 +40,6 @@ export default function GamesMenu(props){
                     </ListItem>
                 </NavLink>
             ))}
-            {/* </List> */}
         </Paper>
     )
 }

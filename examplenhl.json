@@ -1,0 +1,836 @@
+{
+    "status": 200,
+    "time": "2021-01-29T17:33:36.429Z",
+    "games": 12,
+    "skip": 0,
+    "results": [
+    {
+    "schedule": {
+    "date": "2021-01-30T18:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "New Jersey Devils @ Buffalo Sabres",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": true,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "New Jersey Devils",
+    "location": "New Jersey",
+    "mascot": "Devils",
+    "abbreviation": "NJD",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+    },
+    "home": {
+    "team": "Buffalo Sabres",
+    "location": "Buffalo",
+    "mascot": "Sabres",
+    "abbreviation": "BUF",
+    "conference": "Eastern",
+    "division": "Atlantic"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:03:30.509Z",
+    "gameId": 257525,
+    "venue": {
+    "name": "KeyBank Center",
+    "city": "Buffalo",
+    "state": "NY",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "moneyline": {
+    "open": {
+    "awayOdds": 130,
+    "homeOdds": -146
+    },
+    "current": {
+    "awayOdds": 126,
+    "homeOdds": -145
+    }
+    },
+    "total": {
+    "open": {
+    "total": 6,
+    "overOdds": -100,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 5.5,
+    "overOdds": -120,
+    "underOdds": 100
+    }
+    },
+    "openDate": "2021-01-29T17:15:05.891Z",
+    "lastUpdated": "2021-01-29T17:23:25.088Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2021-01-31T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Pittsburgh Penguins @ New York Rangers",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": true,
+    "divisionGame": true
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Pittsburgh Penguins",
+    "location": "Pittsburgh",
+    "mascot": "Penguins",
+    "abbreviation": "PIT",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+    },
+    "home": {
+    "team": "New York Rangers",
+    "location": "New York",
+    "mascot": "Rangers",
+    "abbreviation": "NYR",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:03:30.720Z",
+    "gameId": 257526,
+    "venue": {
+    "name": "Madison Square Garden",
+    "city": "New York",
+    "state": "NY",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "moneyline": {
+    "open": {
+    "awayOdds": -109,
+    "homeOdds": -109
+    },
+    "current": {
+    "awayOdds": -109,
+    "homeOdds": -109
+    }
+    },
+    "total": {
+    "open": {
+    "total": 6,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 6,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2021-01-29T17:23:26.041Z",
+    "lastUpdated": "2021-01-29T17:23:26.046Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2021-01-31T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "New York Islanders @ Philadelphia Flyers",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": true,
+    "divisionGame": true
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "New York Islanders",
+    "location": "New York",
+    "mascot": "Islanders",
+    "abbreviation": "NYI",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+    },
+    "home": {
+    "team": "Philadelphia Flyers",
+    "location": "Philadelphia",
+    "mascot": "Flyers",
+    "abbreviation": "PHI",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:03:31.031Z",
+    "gameId": 257527,
+    "venue": {
+    "name": "Wells Fargo Center",
+    "city": "Philadelphia",
+    "state": "PA",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "moneyline": {
+    "open": {
+    "awayOdds": -101,
+    "homeOdds": -112
+    },
+    "current": {
+    "awayOdds": 100,
+    "homeOdds": -118
+    }
+    },
+    "total": {
+    "open": {
+    "total": 5.5,
+    "overOdds": -100,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 5.5,
+    "overOdds": -105,
+    "underOdds": -115
+    }
+    },
+    "openDate": "2021-01-29T17:15:06.577Z",
+    "lastUpdated": "2021-01-29T17:23:26.786Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2021-01-31T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Boston Bruins @ Washington Capitals",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": true,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Boston Bruins",
+    "location": "Boston",
+    "mascot": "Bruins",
+    "abbreviation": "BOS",
+    "conference": "Eastern",
+    "division": "Atlantic"
+    },
+    "home": {
+    "team": "Washington Capitals",
+    "location": "Washington",
+    "mascot": "Capitals",
+    "abbreviation": "WSH",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:03:31.255Z",
+    "gameId": 257528,
+    "venue": {
+    "name": "Capital One Arena",
+    "city": "Washington",
+    "state": "DC",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "moneyline": {
+    "open": {
+    "awayOdds": -164,
+    "homeOdds": 147
+    },
+    "current": {
+    "awayOdds": -164,
+    "homeOdds": 145
+    }
+    },
+    "total": {
+    "open": {
+    "total": 5.5,
+    "overOdds": -115,
+    "underOdds": 105
+    },
+    "current": {
+    "total": 5.5,
+    "overOdds": -115,
+    "underOdds": -105
+    }
+    },
+    "openDate": "2021-01-29T17:15:07.076Z",
+    "lastUpdated": "2021-01-29T17:23:27.562Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2021-01-31T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Dallas Stars @ Carolina Hurricanes",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Dallas Stars",
+    "location": "Dallas",
+    "mascot": "Stars",
+    "abbreviation": "DAL",
+    "conference": "Western",
+    "division": "Central"
+    },
+    "home": {
+    "team": "Carolina Hurricanes",
+    "location": "Carolina",
+    "mascot": "Hurricanes",
+    "abbreviation": "CAR",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:03:31.567Z",
+    "gameId": 257529,
+    "venue": {
+    "name": "PNC Arena",
+    "city": "Raleigh",
+    "state": "NC",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "moneyline": {
+    "open": {
+    "awayOdds": 111,
+    "homeOdds": -125
+    },
+    "current": {
+    "awayOdds": 109,
+    "homeOdds": -126
+    }
+    },
+    "total": {
+    "open": {
+    "total": 5.5,
+    "overOdds": -105,
+    "underOdds": -105
+    },
+    "current": {
+    "total": 5.5,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2021-01-29T17:15:06.116Z",
+    "lastUpdated": "2021-01-29T17:23:25.677Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2021-01-31T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Nashville Predators @ Tampa Bay Lightning",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Nashville Predators",
+    "location": "Nashville",
+    "mascot": "Predators",
+    "abbreviation": "NSH",
+    "conference": "Western",
+    "division": "Central"
+    },
+    "home": {
+    "team": "Tampa Bay Lightning",
+    "location": "Tampa Bay",
+    "mascot": "Lightning",
+    "abbreviation": "TBL",
+    "conference": "Eastern",
+    "division": "Atlantic"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:03:31.806Z",
+    "gameId": 257530,
+    "venue": {
+    "name": "Amalie Arena",
+    "city": "Tampa",
+    "state": "FL",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "moneyline": {
+    "open": {
+    "awayOdds": 150,
+    "homeOdds": -167
+    },
+    "current": {
+    "awayOdds": 150,
+    "homeOdds": -169
+    }
+    },
+    "total": {
+    "open": {
+    "total": 5.5,
+    "overOdds": -115,
+    "underOdds": 105
+    },
+    "current": {
+    "total": 5.5,
+    "overOdds": -120,
+    "underOdds": 100
+    }
+    },
+    "openDate": "2021-01-29T17:15:06.816Z",
+    "lastUpdated": "2021-01-29T17:23:27.213Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2021-01-31T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Florida Panthers @ Detroit Red Wings",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": true,
+    "divisionGame": true
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Florida Panthers",
+    "location": "Florida",
+    "mascot": "Panthers",
+    "abbreviation": "FLA",
+    "conference": "Eastern",
+    "division": "Atlantic"
+    },
+    "home": {
+    "team": "Detroit Red Wings",
+    "location": "Detroit",
+    "mascot": "Red Wings",
+    "abbreviation": "DET",
+    "conference": "Eastern",
+    "division": "Atlantic"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:03:32.043Z",
+    "gameId": 257531,
+    "venue": {
+    "name": "Little Caesars Arena",
+    "city": "Detroit",
+    "state": "MI",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "moneyline": {
+    "open": {
+    "awayOdds": -165,
+    "homeOdds": 145
+    },
+    "current": {
+    "awayOdds": -165,
+    "homeOdds": 145
+    }
+    },
+    "total": {
+    "open": {
+    "total": 6,
+    "overOdds": -110,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 6,
+    "overOdds": -110,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2021-01-29T17:23:28.151Z",
+    "lastUpdated": "2021-01-29T17:23:28.156Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2021-01-31T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Calgary Flames @ Montreal Canadiens",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Calgary Flames",
+    "location": "Calgary",
+    "mascot": "Flames",
+    "abbreviation": "CGY",
+    "conference": "Western",
+    "division": "Pacific"
+    },
+    "home": {
+    "team": "Montreal Canadiens",
+    "location": "Montreal",
+    "mascot": "Canadiens",
+    "abbreviation": "MTL",
+    "conference": "Eastern",
+    "division": "Atlantic"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:03:32.336Z",
+    "gameId": 257533,
+    "venue": {
+    "name": "Bell Centre",
+    "city": "Montreal",
+    "state": "QC",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "moneyline": {
+    "open": {
+    "awayOdds": 109,
+    "homeOdds": -122
+    },
+    "current": {
+    "awayOdds": 110,
+    "homeOdds": -127
+    }
+    },
+    "total": {
+    "open": {
+    "total": 6,
+    "overOdds": -100,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 6,
+    "overOdds": -105,
+    "underOdds": -115
+    }
+    },
+    "openDate": "2021-01-29T17:15:07.822Z",
+    "lastUpdated": "2021-01-29T17:23:29.615Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2021-01-31T00:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Toronto Maple Leafs @ Edmonton Oilers",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Toronto Maple Leafs",
+    "location": "Toronto",
+    "mascot": "Maple Leafs",
+    "abbreviation": "TOR",
+    "conference": "Eastern",
+    "division": "Atlantic"
+    },
+    "home": {
+    "team": "Edmonton Oilers",
+    "location": "Edmonton",
+    "mascot": "Oilers",
+    "abbreviation": "EDM",
+    "conference": "Western",
+    "division": "Pacific"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:03:32.637Z",
+    "gameId": 257537,
+    "venue": {
+    "name": "Rogers Place",
+    "city": "Edmonton",
+    "state": "AB",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "moneyline": {
+    "open": {
+    "awayOdds": -121,
+    "homeOdds": 108
+    },
+    "current": {
+    "awayOdds": -124,
+    "homeOdds": 106
+    }
+    },
+    "total": {
+    "open": {
+    "total": 6.5,
+    "overOdds": -100,
+    "underOdds": -110
+    },
+    "current": {
+    "total": 6.5,
+    "overOdds": -105,
+    "underOdds": -115
+    }
+    },
+    "openDate": "2021-01-29T17:15:07.587Z",
+    "lastUpdated": "2021-01-29T17:23:28.936Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2021-01-31T01:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Colorado Avalanche @ Minnesota Wild",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": true,
+    "divisionGame": true
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Colorado Avalanche",
+    "location": "Colorado",
+    "mascot": "Avalanche",
+    "abbreviation": "COL",
+    "conference": "Western",
+    "division": "Central"
+    },
+    "home": {
+    "team": "Minnesota Wild",
+    "location": "Minnesota",
+    "mascot": "Wild",
+    "abbreviation": "MIN",
+    "conference": "Western",
+    "division": "Central"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:03:32.871Z",
+    "gameId": 257539,
+    "venue": {
+    "name": "Xcel Energy Center",
+    "city": "Saint Paul",
+    "state": "MN",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "moneyline": {
+    "open": {
+    "awayOdds": -135,
+    "homeOdds": 118
+    },
+    "current": {
+    "awayOdds": -135,
+    "homeOdds": 118
+    }
+    },
+    "total": {
+    "open": {
+    "total": 5.5,
+    "overOdds": -110,
+    "underOdds": -100
+    },
+    "current": {
+    "total": 5.5,
+    "overOdds": -110,
+    "underOdds": -100
+    }
+    },
+    "openDate": "2021-01-29T17:23:29.919Z",
+    "lastUpdated": "2021-01-29T17:23:29.927Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2021-01-31T02:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "St. Louis Blues @ Anaheim Ducks",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": true,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "St. Louis Blues",
+    "location": "St. Louis",
+    "mascot": "Blues",
+    "abbreviation": "STL",
+    "conference": "Western",
+    "division": "Central"
+    },
+    "home": {
+    "team": "Anaheim Ducks",
+    "location": "Anaheim",
+    "mascot": "Ducks",
+    "abbreviation": "ANA",
+    "conference": "Western",
+    "division": "Pacific"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:03:33.089Z",
+    "gameId": 257541,
+    "venue": {
+    "name": "Honda Center",
+    "city": "Anaheim",
+    "state": "CA",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "moneyline": {
+    "open": {
+    "awayOdds": -170,
+    "homeOdds": 150
+    },
+    "current": {
+    "awayOdds": -170,
+    "homeOdds": 150
+    }
+    },
+    "total": {
+    "open": {
+    "total": 5.5,
+    "overOdds": 110,
+    "underOdds": -130
+    },
+    "current": {
+    "total": 5.5,
+    "overOdds": 110,
+    "underOdds": -130
+    }
+    },
+    "openDate": "2021-01-29T17:23:30.418Z",
+    "lastUpdated": "2021-01-29T17:23:30.428Z"
+    }
+    ]
+    },
+    {
+    "schedule": {
+    "date": "2021-01-31T03:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Vancouver Canucks @ Winnipeg Jets",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": true,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Vancouver Canucks",
+    "location": "Vancouver",
+    "mascot": "Canucks",
+    "abbreviation": "VAN",
+    "conference": "Western",
+    "division": "Pacific"
+    },
+    "home": {
+    "team": "Winnipeg Jets",
+    "location": "Winnipeg",
+    "mascot": "Jets",
+    "abbreviation": "WPG",
+    "conference": "Western",
+    "division": "Central"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:03:33.305Z",
+    "gameId": 257535,
+    "venue": {
+    "name": "Bell MTS Place",
+    "city": "Winnipeg",
+    "state": "MB",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "moneyline": {
+    "open": {
+    "awayOdds": 106,
+    "homeOdds": -124
+    },
+    "current": {
+    "awayOdds": 106,
+    "homeOdds": -124
+    }
+    },
+    "total": {
+    "open": {
+    "total": 6,
+    "overOdds": -105,
+    "underOdds": -115
+    },
+    "current": {
+    "total": 6,
+    "overOdds": -105,
+    "underOdds": -115
+    }
+    },
+    "openDate": "2021-01-29T17:23:30.862Z",
+    "lastUpdated": "2021-01-29T17:23:30.881Z"
+    }
+    ]
+    }
+    ]
+    }

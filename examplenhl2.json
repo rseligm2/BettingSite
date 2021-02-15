@@ -1,0 +1,91 @@
+{
+    "status": 200,
+    "time": "2021-01-29T17:51:51.865Z",
+    "games": 1,
+    "skip": 0,
+    "results": [
+    {
+    "schedule": {
+    "date": "2021-01-30T01:00:00.000Z",
+    "tbaTime": false
+    },
+    "summary": "Columbus Blue Jackets @ Chicago Blackhawks",
+    "details": {
+    "league": "NHL",
+    "seasonType": "regular",
+    "season": 2020,
+    "conferenceGame": false,
+    "divisionGame": false
+    },
+    "status": "scheduled",
+    "teams": {
+    "away": {
+    "team": "Columbus Blue Jackets",
+    "location": "Columbus",
+    "mascot": "Blue Jackets",
+    "abbreviation": "CBJ",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+    },
+    "home": {
+    "team": "Chicago Blackhawks",
+    "location": "Chicago",
+    "mascot": "Blackhawks",
+    "abbreviation": "CHI",
+    "conference": "Western",
+    "division": "Central"
+    }
+    },
+    "lastUpdated": "2021-01-29T17:51:07.837Z",
+    "gameId": 257516,
+    "venue": {
+    "name": "United Center",
+    "city": "Chicago",
+    "state": "IL",
+    "neutralSite": false
+    },
+    "odds": [
+    {
+    "spread": {
+    "open": {
+    "away": -1.5,
+    "home": 1.5,
+    "awayOdds": 225,
+    "homeOdds": -265
+    },
+    "current": {
+    "away": -1.5,
+    "home": 1.5,
+    "awayOdds": 195,
+    "homeOdds": -225
+    }
+    },
+    "moneyline": {
+    "open": {
+    "awayOdds": -110,
+    "homeOdds": -110
+    },
+    "current": {
+    "awayOdds": -131,
+    "homeOdds": 116
+    }
+    },
+    "total": {
+    "open": {
+    "total": 5.5,
+    "overOdds": -120,
+    "underOdds": -100
+    },
+    "current": {
+    "total": 5.5,
+    "overOdds": -100,
+    "underOdds": -110
+    }
+    },
+    "openDate": "2021-01-28T19:11:13.884Z",
+    "lastUpdated": "2021-01-29T17:44:51.503Z"
+    }
+    ]
+    }
+    ]
+    }
